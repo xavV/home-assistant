@@ -8,6 +8,7 @@ import sys
 
 COMMENT_REQUIREMENTS = (
     'RPi.GPIO',
+    'raspihats',
     'rpi-rf',
     'Adafruit_Python_DHT',
     'Adafruit_BBIO',
@@ -15,6 +16,7 @@ COMMENT_REQUIREMENTS = (
     'pybluez',
     'beacontools',
     'bluepy',
+    'opencv-python',
     'python-lirc',
     'gattlib',
     'pyuserinput',
@@ -22,7 +24,8 @@ COMMENT_REQUIREMENTS = (
     'pycups',
     'python-eq3bt',
     'avion',
-    'decora'
+    'decora',
+    'face_recognition'
 )
 
 IGNORE_PACKAGES = (
